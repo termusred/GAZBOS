@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #3498DB;
+  --secondary: #F39C12;
+  --button-primary: #2C3E50;
+  --button-secondary: #ECF0F1;
+  --foreground: white;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+*{
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Jersey 25";
+}
+.page{
+  height: 100vh;
+  background-color: var(--background);
+}
+
+.hero {
+  font-size: 1.2rem;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.button-primary {
+  border-radius: 9px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: var(--button-primary);
+}
+.button-secondary {
+  border-radius: 9px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+  background-color: var(--button-secondary);
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10%;
+  color: black;
+  background-color: var(--secondary);
+} 
+.navigation{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.funfact{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-size: cover;
+  background-image: url("../../public/getty_523821065_98040.webp");
+}
+.fact{
+  width: 30%;
+  height: 40%;
+  background-color: white;
+}
