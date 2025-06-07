@@ -2,7 +2,26 @@
     "Hero":{
         "title":"Vaqt tig'iz? - odam kamini topamiz!",
         "subtitle":"GAZBOS ilovasi orqali qayer arzonroq , kamroq odam va yaqinroq ekanlgini koring!",
-        "firstbutton":"Sinab Ko'rish",
-        "secondbutton":"Hamkorlik"
+        "btn1":"Sinab Ko'rish",
+        "btn2":"Hamkorlik",
+        "facts": [
+            "Toshkent yo‘llari 400 ming mashina uchun mo‘ljallangan, ammo hozir 900 minggacha avtomobil yurmoqda.",
+            "Tirbandliklar tufayli o‘rtacha tezlik 7 km/soatgacha tushgan.",
+            "2024 yilda 1 trillion so‘mdan ortiq jarima yig‘ilgan.",
+            "2030 yilgacha ayrim yo‘llarda kuniga 80 mingta mashina bo‘lishi mumkin.",
+            "2000+ kamera va elektroavtomobillar uchun infratuzilma yaratilmoqda."
+        ]
+    },
+    "Navbar":{
+        "btn1":"Qidirish",
+        "btn2":"Qanday ishlaydi",
+        "btn3":"Hamkorlik"
+    },
+    "Cards":{
+        "title":"Benzin kerakmi? - Gazbos siz uchun eng qisqa masofali va kam navbatli shahobchani  topib beradi!",
+        "sectitle":"Bu juda osson! Keling Gazbos dan foydalanishni orgatamiz!",
+        "card1":"Geolokatsiya yoqish - Gazbos to’g’ri ishlashi uchun birinchi orinda manzilingiz kerak bo’ladi",
+        "card2":"Bankingizdagi yoqilg’i - sizning mashina necha kilometrga yura olishini bilishimiz kerek",
+        "card3":"Navbat - qanchalik vaqt ko’p techaqochisiz? Odam kam shaxobchalarni topamiz!"
     }
 }
