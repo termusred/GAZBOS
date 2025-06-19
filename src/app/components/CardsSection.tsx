@@ -23,17 +23,17 @@ export default function Cards() {
   ];
 
   return (
-    <div className="h-screen">
-      <div className="w-full h-1/3 cloud flex items-center justify-center">
+    <div className="h-screen overflow-hidden">
+      <div className="w-full h-1/4 cloud flex items-center justify-center">
         <span>{t("title")}</span>
       </div>
 
-      <div className="flex h-screen flex-col">
+      <div className="flex h-full flex-col">
         <div className="p-16 h-1/4">
           <h2 className="font-bold">{t("sectitle")}</h2>
         </div>
 
-        <div className="h-1/2 flex flex-col sm:flex-row justify-evenly items-center sm:items-stretch gap-4 px-4">
+        <div className="h-2/4 flex flex-col sm:flex-row justify-evenly items-center sm:items-stretch gap-4 px-4">
           {cards.map(({ icon, text }, i) => (
             <div
               key={i}

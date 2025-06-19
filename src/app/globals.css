@@ -205,3 +205,6 @@ button{
       12px 4px;
   }
 }
+*{
+  outline: 1px solid red;
+}
