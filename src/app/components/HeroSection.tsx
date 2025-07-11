@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
 export default function HeroSection() {
-  const t = useTranslations('Hero');
+  const t = useTranslations('Hero');  
   const facts = t.raw('facts') as string[];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,8 +36,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Fun Fact Section */}
-      <div className="w-full bg-gray-100 py-16 flex justify-center px-6 sm:px-16 lg:px-32 mt-6 sm:mt-10">
+      <div className="w-full bg-gray-100 py-16 flex justify-end px-6 sm:px-16 lg:px-32 mt-6 sm:mt-10 fluffy">
         <p className="fact max-w-4xl text-center text-xl sm:text-3xl lg:text-4xl text-gray-900 font-medium transition-opacity duration-500">
           {facts[currentIndex]}
         </p>

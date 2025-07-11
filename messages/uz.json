@@ -23,5 +23,16 @@
         "card1":"Geolokatsiya yoqish - Gazbos to’g’ri ishlashi uchun birinchi orinda manzilingiz kerak bo’ladi",
         "card2":"Bankingizdagi yoqilg’i - sizning mashina necha kilometrga yura olishini bilishimiz kerek",
         "card3":"Navbat - qanchalik vaqt ko’p techaqochisiz? Odam kam shaxobchalarni topamiz!"
+    },
+    "Why":{
+        "title":"Gazbos ilovasi foydasi!",
+        "point-one":"Gazbos - uzoq masofalarga , yuk va yengil mashinalarga eng qisqa yo'llar va eng kam tirbantli shaxobchalarni ko'rsatadi",
+        "point-two":"Gazbos - eng asosiy funksiyalaridan biri shahar ichidagi tirbantliklarni reguliyatsiya qilish va haydovchilarni yaxshiroq marshrutdan foydalanishga yordam berish!"
+    },
+    "Collab":{
+        "title":"Hamkorlik",
+        "card1":"Yirik yuk kompaniyalari bilan hamkorlik qilib, og‘ir transport harakati qanday yurishini real vaqtda kuzatamiz. Bu haydovchilarga tor joylar va tirband yo‘llardan qochishga yordam beradi.",
+        "card2":"Mahalliy kuryerlar va yuk xizmatlari bizning tizim orqali eng tez va eng kam tirbandlik bo‘lgan yo‘llarni tanlaydi. Bu esa etkazib berish vaqtini sezilarli darajada qisqartiradi.",
+        "card3":"Yo‘l yopilishi, politsiya nazorat punktlari, navbatdagi AYOQShlar — bularning barchasi bizning tarmog‘imizda. Mahalliy tajriba asosida yo‘l harakati haqida aniq va foydali ma’lumotlar taqdim qilamiz."
     }
 }
